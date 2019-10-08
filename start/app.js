@@ -25,7 +25,8 @@ const providers = [
   path.join(__dirname, '..', 'providers', 'Helpers', 'Provider'),
   path.join(__dirname, '..', 'providers', 'RouteProvider'),
   path.join(__dirname, '..', 'providers', 'ResponseProvider'),
-  path.join(__dirname, '..', 'providers', 'ValidatorProvider')
+  path.join(__dirname, '..', 'providers', 'ValidatorProvider'),
+  '@adonisjs/vow/providers/VowProvider'
 ]
 
 /*
